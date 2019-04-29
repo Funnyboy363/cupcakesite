@@ -1,0 +1,81 @@
+.hero-image {
+	background-image: url("https://images.unsplash.com/photo-1523556074944-205934254644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+	padding: 8rem 0;
+	background-size: cover;
+}
+
+
+.hero-image h1 {
+	text-align: center;
+	font-size: 60px;
+}
+
+.hero-image h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+/* Smaller Phone CSS Adjustment */
+@media only screen 
+  and (max-width: 320px) {
+
+	  
+
+	  body h1 {
+		font-size: 35px;
+	}
+
+	.social {
+		color: darkgray;
+	}
+
+	.social:hover {
+		color: lightblue;
+	}
+	  
+}
+
+
+
+
+
+
+/* Phone CSS Adjustment */
+@media only screen 
+  and (min-width: 320px) {
+	  
+
+}
+
+
+
+
+
+
+/* Tablet CSS Adjustment */
+@media only screen 
+  and (min-width: 768px) {
+	
+
+	body h1 {
+		font-size: 50px;
+	}
+
+}
+
+
+
+
+/* Laptop and bigger Adjustment */
+
+@media screen 
+  and (min-width: 1200px) { 
+	
+
+	body h1 {
+		font-size: 50px;
+	}
+
+}
