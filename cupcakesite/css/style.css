@@ -1,18 +1,30 @@
 .hero-image {
-	background-image: url("https://images.unsplash.com/photo-1523556074944-205934254644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+	background-image: url("../images/cupcakeheroimage.png");
 	padding: 8rem 0;
 	background-size: cover;
+	background-position: center center;
+	
 }
 
 
 .hero-image h1 {
 	text-align: center;
-	font-size: 60px;
+	font-size: 50px;
+	margin-bottom: 8rem;
+	margin-top: -2rem;
+	color: #9d5a4f;
+	text-shadow: 3px 3px 3px #f2d9be;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 .hero-image h2 {
 	text-align: center;
 	font-size: 30px;
+	padding-top: 8rem;
+	color: #9d5a4f;
+	text-shadow: 3px 3px 3px #f2d9be;
+	font-family: 'Gloria Hallelujah', cursive;
+	
 }
 
 
