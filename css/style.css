@@ -3,7 +3,7 @@
 	padding: 8rem 0;
 	background-size: cover;
 	background-position: center center;
-	
+
 	
 }
 
@@ -29,6 +29,26 @@
 }
 
 
+.social {
+	color: #abd3bc;
+}
+
+.social:hover {
+	color: #f2d9be;
+}
+
+
+a.footerlink {
+	color: #94cbac;
+	font-weight: 700;
+}
+
+a.footerlink:hover {
+	color: darkgray;
+	text-decoration: none;
+	font-weight: 700;
+}
+
 
 /* Smaller Phone CSS Adjustment */
 @media only screen 
@@ -40,13 +60,7 @@
 		font-size: 35px;
 	}
 
-	.social {
-		color: darkgray;
-	}
-
-	.social:hover {
-		color: lightblue;
-	}
+	
 	  
 }
 
